@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  @apply bg-[#f7f8f9] text-[#0f172a] antialiased;
+  background-image:
+    radial-gradient(circle at 15% -10%, rgba(34, 197, 94, 0.12), transparent 40%),
+    radial-gradient(circle at 100% 0%, rgba(15, 23, 42, 0.08), transparent 35%);
+}
+
+::selection {
+  background: #22c55e;
+  color: #052e16;
+}

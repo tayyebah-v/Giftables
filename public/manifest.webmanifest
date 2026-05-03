@@ -1,0 +1,10 @@
+{
+  "name": "Giftables",
+  "short_name": "Giftables",
+  "description": "Build bespoke gift packages with live pricing.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#faf8f5",
+  "theme_color": "#ede9fe",
+  "lang": "en"
+}
